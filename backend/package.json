@@ -14,7 +14,9 @@
   "description": "",
   "dependencies": {
     "@types/better-sqlite3": "^7.6.13",
+    "@types/cors": "^2.8.19",
     "better-sqlite3": "^11.10.0",
+    "cors": "^2.8.5",
     "drizzle-orm": "^0.44.5",
     "express": "^5.1.0",
     "swagger-ui-express": "^5.0.1",

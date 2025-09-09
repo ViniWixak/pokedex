@@ -8,11 +8,18 @@ package-lock.json
 yarn.lock
 pnpm-lock.yaml
 
-# Build outputs
-dist/
-build/
-.tmp/
-.cache/
+
+# Build / output / caches
+**/dist/
+**/build/
+**/.vite/
+**/.cache/
+**/.turbo/
+**/.next/
+**/.nuxt/
+**/.parcel-cache/
+**/*.tsbuildinfo
+**/.eslintcache
 
 # TypeScript
 *.tsbuildinfo
@@ -23,6 +30,11 @@ logs
 *.log.*
 *.out
 *.err
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
 # Environment
 .env
@@ -33,6 +45,13 @@ logs
 .idea/
 *.swp
 *.swo
+
+# Database / local data
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+backend/pokedex.db
 
 # OS files
 .DS_Store
@@ -50,3 +69,19 @@ coverage/
 *.seed
 *.pid.lock
 docker-compose.override.yml
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
