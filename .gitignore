@@ -58,8 +58,14 @@ backend/pokedex.db
 Thumbs.db
 
 # Coverage / Testing
-coverage/
+**/coverage/
+**/.nyc_output/
+coverage-*.json
+coverage-*.lcov
 *.lcov
+.vitest/           
+junit.xml
+test-results.xml
 
 # Misc
 *.tgz
