@@ -5,5 +5,5 @@ ensureSchema();
 
 const PORT = process.env.PORT ?? 3000;
 app.listen(PORT, () =>
-  console.log(`API running on http://localhost:${PORT} (docs: /docs)`)
+  console.log(`API trocando o texto daqui on http://localhost:${PORT} (docs: /docs)`)
 );
